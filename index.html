@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>¿Estamos solos?</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,800;1,9..144,500&family=Figtree:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="neb n1"></div><div class="neb n2"></div>
+<canvas id="sky" aria-hidden="true"></canvas>
+
+<header class="wrap hero">
+  <h1 aria-label="¿Estamos solos?"><span><i>¿Estamos</i></span> <span>solos?</span></h1>
+  <p class="sub">pequeño spoiler: nadie lo sabe :v</p>
+  <p class="hint">baja con calma ↓</p>
+</header>
+
+<main>
+<section><div class="wrap">
+  <h2>Partamos por los números</h2>
+  <div class="num" id="c1">0</div>
+  <p class="numl">planetas confirmados fuera del sistema solar, según la NASA. Y hay más de 8.000 candidatos esperando confirmación.</p>
+  <p>Los cálculos dicen que en nuestra galaxia, la Vía Láctea, hay entre 100 y 300 mil millones de planetas. Es decir, en promedio, <em>cada estrella tiene al menos uno</em>.</p>
+  <p>Y esa es solo una galaxia.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Pero un planeta no es vida</h2>
+  <p>Para que algo viva necesita, como mínimo, agua líquida, una fuente de energía y química compleja. Por eso se busca en la <em>zona habitable</em>: la franja alrededor de una estrella donde no hace ni tanto calor ni tanto frío para que exista agua líquida.</p>
+  <p>Ahí hay una pista a favor: en la Tierra la vida apareció rápido, hace más de 3.500 millones de años, apenas hubo agua líquida estable. Si fuera casi imposible, tal vez habría tardado mucho más.</p>
+  <p>Ojo: una sola vez no es estadística. Tenemos un solo ejemplo.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Lo que hemos encontrado (hasta ahora)</h2>
+  <div class="pista"><h3>Marte: la roca Cheyava Falls</h3>
+    <p>El rover Perseverance la encontró en 2024. En 2025 la NASA dijo que tiene <b>posibles señales de vida microbiana antigua</b>. Pero también pueden explicarse sin vida. Hay que traerla a la Tierra para saber.</p></div>
+  <div class="pista"><h3>K2-18b, a 120 años luz</h3>
+    <p>En 2025 un equipo dijo haber visto en su atmósfera un gas que en la Tierra produce la vida. Estudios posteriores <b>no encontraron evidencia estadísticamente significativa</b>. Sigue en debate y vienen más datos del telescopio James Webb.</p></div>
+  <div class="pista"><h3>Océanos escondidos</h3>
+    <p>Lunas como Europa (de Júpiter) y Encélado (de Saturno) tienen agua líquida bajo el hielo. Encélado además lanza géiseres con compuestos orgánicos. No hay vida confirmada, pero son lugares donde sería posible.</p></div>
+  <p>Resumen: <em>cero pruebas confirmadas</em>, varias pistas interesantes.</p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="pulse" id="fermi">Si hay tantos planetas, ¿dónde está todo el mundo? Esa pregunta la hizo Enrico Fermi hace más de 70 años y todavía nadie la resuelve.</p>
+  <div class="gal" id="gal"><div class="ring" id="ring"></div><div class="us" title="Nosotros"></div></div>
+  <p class="cap">La galaxia mide unos 100.000 años luz de lado. Llevamos poco más de un siglo emitiendo radio, así que nuestras señales solo han llegado a unos 100 años luz. En escala real, el círculo sería más chico que el punto blanco que marca la Tierra.</p>
+  <p>Eso explica parte del silencio: quizás hay alguien y simplemente no ha llegado la señal. Otras explicaciones: que la vida compleja sea rarísima (la hipótesis de la "Tierra rara"), o que las civilizaciones se extingan antes de llegar lejos (el "Gran Filtro"). Ninguna está probada.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Juega con la ecuación de Drake</h2>
+  <p>En 1961, Frank Drake propuso multiplicar siete factores para estimar cuántas civilizaciones podrían comunicarse con nosotros en la galaxia. El problema: casi todos los factores son un misterio. Mueve los deslizadores y mira qué pasa.</p>
+  <div class="drake" id="drake">
+    <div class="btns"><button id="bp">Pesimista</button><button id="bo">Optimista</button></div>
+    <div class="res" id="res"></div>
+  </div>
+  <p>Con valores pesimistas dan prácticamente cero. Con optimistas, miles. Esa diferencia enorme es la respuesta honesta de la ciencia hoy.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Entonces, ¿estamos solos?</h2>
+  <p class="verdict">Hay dos preguntas distintas. ¿Vida simple en otro lugar? Muchos científicos creen que es probable, aunque sin pruebas. ¿Alguien con quien conversar? No hay ninguna señal, y cualquier número que alguien te dé es una apuesta.</p>
+  <p>Tú puedes tener tu opinión, pero ahora con datos. Y la respuesta puede llegar en tu vida: se vienen telescopios como el Nancy Grace Roman y el Habitable Worlds Observatory (este último todavía en proyecto) pensados justo para esto.</p>
+</div></section>
+</main>
+
+<footer><div class="wrap"><p>Fuentes: NASA Exoplanet Archive (conteo de exoplanetas), NASA (Cheyava Falls, sept. 2025), estudios sobre K2-18b (2025). Complemento del fanzine de Física.</p></div></footer>
+<div class="niko"><p class="end">siganme en igggggggggg @nikolovescr7</p></div>
+<section class="blue-dot">
+  <div class="wrap">
+    <img src="unpuntoazul.jfif" alt="La Tierra como un pequeño punto azul en la inmensidad del espacio">
+    <p class="reflection">En medio de tanta inmensidad, este pequeño punto azul es el único hogar que conocemos. Cuidarlo también es una forma de mirar al universo ♡</p>
+  </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

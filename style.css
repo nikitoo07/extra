@@ -1,0 +1,58 @@
+:root{--bg:#05030d;--v1:#140a2e;--v2:#2a1458;--glow:#8a5cff;--lilac:#c7b0ff;--ink:#f1ecff;--mute:#a99cc9;--star:#fff1cf;--line:#2b1f52;
+--h:'Fraunces',Georgia,serif;--b:'Figtree','Segoe UI',sans-serif;color-scheme:dark;box-sizing:border-box;
+padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.1rem/1.7 var(--b)}
+.neb{position:fixed;border-radius:50%;filter:blur(90px);z-index:0;pointer-events:none}
+.n1{width:60vmax;height:60vmax;left:-20vmax;top:-15vmax;background:radial-gradient(circle,#4b1fa8aa,transparent 65%)}
+.n2{width:55vmax;height:55vmax;right:-22vmax;bottom:-18vmax;background:radial-gradient(circle,#7a2fb877,transparent 65%)}
+#sky{position:fixed;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
+main,header,footer{position:relative;z-index:2}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.4rem}
+h1,h2{font-family:var(--h);margin:0;line-height:1.02;letter-spacing:-.02em}
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:3rem 0}
+.hero h1{font-size:clamp(3.6rem,18vw,8.5rem);font-weight:800}
+.hero h1 span{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em}
+.hero h1 i{display:inline-block;font-style:italic;font-weight:500;color:var(--lilac)}
+.sub{font-size:1.3rem;color:var(--mute);max-width:26rem;margin:1.6rem 0 0}
+.hint{margin-top:3rem;color:var(--mute);font-size:.95rem}
+section{padding:5.5rem 0}
+h2{font-size:clamp(2rem,8.5vw,3.4rem);font-weight:800;margin-bottom:1.5rem}
+p{margin:0 0 1.2rem;max-width:36rem}
+em{color:var(--lilac)}
+.num{font-family:var(--h);font-weight:800;font-size:clamp(3rem,14vw,5.5rem);line-height:1;color:var(--star);text-shadow:0 0 40px #8a5cff99}
+.numl{color:var(--mute);margin:.3rem 0 2rem}
+.pulse{font-family:var(--h);font-size:clamp(1.7rem,6.5vw,2.6rem);line-height:1.25;font-weight:500;margin:0;max-width:none}
+.pulse span{opacity:.18}
+.pista{border-left:2px solid var(--glow);padding:.2rem 0 .2rem 1.2rem;margin:2rem 0}
+.pista h3{font:800 1.3rem var(--h);margin:0 0 .3rem}
+.pista p{margin:0;color:var(--mute)}
+.pista b{color:var(--ink);font-weight:500}
+.gal{position:relative;width:min(100%,22rem);aspect-ratio:1;margin:2.5rem auto 1rem;border-radius:50%;
+background:radial-gradient(circle,#fff1cf 0,#b794ff 8%,#5b2fc4 30%,#2a1458 55%,transparent 72%);box-shadow:0 0 80px #6b3fd855}
+.gal:before{content:"";position:absolute;inset:6%;border-radius:50%;background:conic-gradient(from 0deg,#0000,#ffffff22,#0000 25%,#ffffff22 50%,#0000 75%);mask:radial-gradient(circle,#0000 12%,#000 14%,#000 60%,#0000 70%);-webkit-mask:radial-gradient(circle,#0000 12%,#000 14%,#000 60%,#0000 70%)}
+.us{position:absolute;left:66%;top:44%;width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 12px #fff}
+.ring{position:absolute;left:66%;top:44%;width:7px;height:7px;margin:0;border-radius:50%;border:1px solid #fff;opacity:0}
+.cap{font-size:.95rem;color:var(--mute);text-align:center;margin:0 auto 2rem}
+.drake{background:#ffffff0a;border:1px solid var(--line);border-radius:1.2rem;padding:1.4rem;margin:2rem 0;backdrop-filter:blur(6px)}
+.drake label{display:block;font-size:.95rem;margin-top:.9rem}
+.drake label span{float:right;color:var(--star)}
+.drake input{width:100%;accent-color:var(--glow)}
+.btns{display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:.4rem}
+.btns button{font:500 .95rem var(--b);color:var(--ink);background:var(--v2);border:1px solid var(--glow);border-radius:2rem;padding:.55rem 1.1rem;cursor:pointer}
+.btns button:hover{background:var(--glow)}
+.res{margin-top:1.4rem;font:800 clamp(1.8rem,8vw,2.8rem)/1.1 var(--h);color:var(--star)}
+.res small{display:block;font:400 .95rem var(--b);color:var(--mute);margin-top:.4rem}
+.verdict{font-family:var(--h);font-size:clamp(1.5rem,6vw,2.2rem);line-height:1.3;font-weight:500}
+footer{padding:2rem 0 5rem;color:var(--mute);font-size:.9rem}
+footer p{max-width:none}
+:focus-visible{outline:2px solid var(--lilac);outline-offset:3px}
+.niko {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--mute);
+}
+.blue-dot{text-align:center;padding-top:2rem}
+.blue-dot img{display:block;width:min(100%,22rem);height:auto;margin:0 auto 1.8rem;border:1px solid #ffffff22;border-radius:4px;box-shadow:0 0 60px #6b3fd855}
+.reflection{max-width:34rem;margin:0 auto;color:var(--lilac);font:500 clamp(1.35rem,5vw,2rem)/1.35 var(--h)}
